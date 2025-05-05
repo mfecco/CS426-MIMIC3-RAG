@@ -18,11 +18,13 @@ We want to explore different summarization models for unstructured text notes as
     * Bleu scores - using pyspark
     * Rouge score - using pyspark
     * BERTscores F1, precision, recall
+    * Pairwise cosine similarity within RAG embedding model
 * Visual Analysis
     * Plot embeddings using PCA
     * Heatmaps for Bleu/Rouge scores
     * Bar graph for BERTscore metrics
     * Word plots to look for vocabulary diversity and word choice patterns.
+    * Violin and Box plots for pairwise cosine similarity distribution, mean, median, and outliers
 
 
 
@@ -63,10 +65,10 @@ This notebook contains pairwise cosine similarity calculations and visualiztions
 This notebook contains embedding PCA visualizations and cleaning functions for better csv format.
 
 ## cosine_distances.ipynb
-This notebook contains cosine distance calculations and visualizations
+This notebook contains cosine distance calculations for embedding cluster sparseness and visualizations.
 
 ## score_visuals.ipynb
-This notebook contains visualizations for Bleu, Rouge, and BERTscore metrics
+This notebook contains visualizations for Bleu, Rouge, and BERTscore metrics.
 
 
 ## For Questions
